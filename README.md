@@ -1,6 +1,7 @@
 # KaffeeKarte
-Für die [Ruhr-Universität Bochum](https://www.ruhr-uni-bochum.de)
-[https://coffee.subbytes.net/](https://coffee.subbytes.net/)
+Für die [RUB](https://www.ruhr-uni-bochum.de)
+
+Live: [https://coffee.subbytes.net/](https://coffee.subbytes.net/)
 
 # Used
 - [Roboto Font](https://fonts.google.com/specimen/Roboto)
