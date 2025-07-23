@@ -1,4 +1,4 @@
-name: Deploy Jekyll to VServer
+name: Deploy to VServer
 
 on:
   push:
@@ -12,20 +12,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-
-    - name: Install dependencies
-      run: |
-        gem install bundler
-        bundle install
-
-    - name: Build Jekyll site
-      run: bundle exec jekyll build
-
+      
     - name: Copy site to VServer via SSH
       uses: appleboy/scp-action@master
       with:
